@@ -9,7 +9,7 @@ public class UserData {
     public UserData(String nombre, String apellidos, String telefono) {
         this.nombre = nombre;
         this.apellidos = apellidos;
-        this.telefono = telefono;
+        setTelefono(telefono);
     }
 
     public String getNombre() {
@@ -33,7 +33,16 @@ public class UserData {
     }
 
     public void setTelefono(String telefono) {
-        this.telefono = telefono;
+        if (validarTelefono(telefono)) {
+            this.telefono = telefono;
+        } else {
+            System.err.println("⚠️ Teléfono no válido. Debe contener exactamente 9 dígitos.");
+            this.telefono = "No disponible";
+        }
+    }
+
+    private boolean validarTelefono(String telefono) {
+        return telefono != null && telefono.matches("\\d{9}");
     }
 
     @Override
