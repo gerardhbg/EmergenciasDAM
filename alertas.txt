@@ -14,3 +14,6 @@ EmergencyEvent{tipo='General', ubicacion='ead', latitud=3.0, longitud=2.0, nivel
 EmergencyEvent{tipo='General', ubicacion='ASD', latitud=123.0, longitud=21.0, nivelGravedad='B'}
 EmergencyEvent{tipo='General', ubicacion='A', latitud=1.0, longitud=2.0, nivelGravedad='C'}
 EmergencyEvent{tipo='General', ubicacion='e', latitud=1.0, longitud=2.0, nivelGravedad='C'}
+EmergencyEvent{tipo='General', ubicacion='P', latitud=2.0, longitud=3.0, nivelGravedad='C'}
+EmergencyEvent{tipo='General', ubicacion='Pal', latitud=4.0, longitud=5.0, nivelGravedad='C'}
+EmergencyEvent{tipo='General', ubicacion='Pal', latitud=4.0, longitud=3.0, nivelGravedad='C'}

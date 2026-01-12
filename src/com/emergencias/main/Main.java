@@ -6,5 +6,6 @@ public class Main {
         //Llamada al orquestador
         EmergencyManager emergencyManager = new EmergencyManager();
         emergencyManager.startSystem();
+        emergencyManager.mostrarHistorialArchivo();
     }
 }

@@ -4,6 +4,7 @@ import com.emergencias.model.EmergencyEvent;
 import com.emergencias.model.UserData;
 
 import java.io.FileWriter;
+import java.io.IOException;
 
 public class AlertSender {
     // Recibimos por parámetro el objeto EmergencyEvent y el objeto UserData para simular la alerta al 112 y se crea el fichero con los datos
@@ -17,6 +18,16 @@ public class AlertSender {
                 writer.write(event.toString() + "\n");
             } catch (Exception e) {
                 System.err.println("Error en envío: " + e.getMessage());
+            }
+
+            try (FileWriter writerHist = new FileWriter("historial.txt", true)) {
+                writerHist.write("Usuario: " + user.getNombre() + " " + user.getApellidos() +
+                        " | Tel: " + user.getTelefono() +
+                        " | Emergencia: " + event.getTipo() +
+                        " | Ubicación: " + event.getUbicacion() +
+                        " | Gravedad: " + event.getNivelGravedad() + "\n");
+            } catch (IOException e) {
+                System.err.println("Error guardando historial: " + e.getMessage());
             }
         }
     }
