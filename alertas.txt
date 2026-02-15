@@ -13,3 +13,12 @@ EmergencyEvent{tipo='General', ubicacion='asddasl', latitud=3.0, longitud=21.0, 
 EmergencyEvent{tipo='General', ubicacion='ead', latitud=3.0, longitud=2.0, nivelGravedad='C'}
 EmergencyEvent{tipo='General', ubicacion='ASD', latitud=123.0, longitud=21.0, nivelGravedad='B'}
 EmergencyEvent{tipo='General', ubicacion='A', latitud=1.0, longitud=2.0, nivelGravedad='C'}
+EmergencyEvent{tipo='General', ubicacion='Murcia', latitud=12.0, longitud=14.0, nivelGravedad='B'}
+EmergencyEvent{tipo='General', ubicacion='parla', latitud=12.0, longitud=14.0, nivelGravedad='C'}
+EmergencyEvent{tipo='General', ubicacion='Almoradi', latitud=1.0, longitud=3.0, nivelGravedad='B'}
+EmergencyEvent{tipo='General', ubicacion='PARLA', latitud=12.0, longitud=13.0, nivelGravedad='C'}
+EmergencyEvent{tipo='General', ubicacion='Galdar', latitud=12.0, longitud=13.0, nivelGravedad='A'}
+EmergencyEvent{tipo='General', ubicacion='Murcia', latitud=12.0, longitud=13.0, nivelGravedad='A'}
+EmergencyEvent{tipo='General', ubicacion='12', latitud=13.0, longitud=14.0, nivelGravedad='A'}
+EmergencyEvent{tipo='General', ubicacion='Palamos', latitud=12.0, longitud=13.0, nivelGravedad='A'}
+EmergencyEvent{tipo='General', ubicacion='Palamos', latitud=12.0, longitud=13.0, nivelGravedad='A'}
