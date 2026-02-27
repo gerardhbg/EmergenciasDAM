@@ -46,7 +46,8 @@ public class EmergencyDetector {
         String nivelGravedad;
         if (fuerzaGolpe >= 5 && fuerzaGolpe < 8){
             nivelGravedad = "B";
-        } else if (fuerzaGolpe > 8) {
+// FIX: Se cambia > 8 por >= 8 para cubrir el caso de que la fuerza sea exactamente 8
+        } else if (fuerzaGolpe >= 8) {
             nivelGravedad = "A";
         } else {
             nivelGravedad = "C";
